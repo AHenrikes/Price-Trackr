@@ -1,3 +1,69 @@
+#file structure example:
+- src/
+  - app/
+    - page.tsx
+    - layout.tsx
+    - favicon.ico
+
+    - api/
+    - users.ts
+    - products.ts
+    - blog.js
+
+    - about/
+      - page.tsx
+      - team.tsx
+      - history.tsx
+
+    - products/
+      - page.tsx
+      - [productId].tsx
+
+    - blog/
+      - page.tsx
+      - [slug].tsx
+
+  - components/
+    - Header.tsx
+    - Footer.tsx
+    - ProductCard.tsx
+    - BlogPost.tsx
+
+  - lib/
+    - auth.ts
+    - apiClient.ts
+    - utils.ts
+
+  - styles/
+    - globals.css
+    - Home.css
+    - About.css
+    - Product.css
+    - Blog.css
+
+  - services/
+    - productService.ts
+    - blogService.ts
+
+  - hooks/
+    - UseAuthentication.ts
+    - UseFetchData.ts
+
+  - constants/
+    - apiEndpoints.ts
+    - config.ts
+
+  - public/
+    - images/
+      - logo.png
+      - banner.jpg
+
+- .babelrc
+- next.config.js
+- package.json
+- README.md
+- ...rest
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
