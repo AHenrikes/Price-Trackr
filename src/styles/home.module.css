@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  height: 100vh;
+
+  .main {
+    display: grid;
+    grid-template-rows: 100px auto;
+
+    .header {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+
+    }
+  }
+}
